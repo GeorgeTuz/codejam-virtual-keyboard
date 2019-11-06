@@ -6,10 +6,16 @@
 .textarea {
     width: 100%;
     height: 230px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.textarea:focus {
+  outline: none;
 }
 .keyboard {
     display: flex;
     flex-wrap: wrap;
+    background-color: darkgray;
 }
 .key {
     width: 47px;
